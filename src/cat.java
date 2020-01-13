@@ -11,11 +11,11 @@ public class cat extends animal implements CanEat {
 
     @Override
     public void eat() {
-        System.out.println(name+" cat eat...");
+        System.out.println(name+" cat eat....");
     }
 
     @Override
     public void back() {
-        System.out.println(name+" cat back...");
+        System.out.println(name+" cat back....");
     }
 }
